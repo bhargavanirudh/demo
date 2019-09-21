@@ -39,6 +39,8 @@ public WebDriver initializeDriver() throws IOException
 		System.out.println("Please give correct or suitable Browser name");
 	}
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	System.out.println("The driver object has been created and returned");
 	return driver;
+	
 }
 }
