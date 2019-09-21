@@ -17,6 +17,7 @@ public class Base
 	public Properties properties;
 public WebDriver initializeDriver() throws IOException
 {
+	System.out.println("This file is being modified to understand the importance of GIT");
 	FileInputStream fis = new FileInputStream("C:\\Users\\welcome\\eclipse-workspace\\E2EProject\\src\\main\\java\\resources\\data.properties");
 	properties = new Properties();
 	properties.load(fis);

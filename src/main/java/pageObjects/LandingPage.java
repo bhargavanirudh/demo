@@ -6,9 +6,11 @@ import org.openqa.selenium.WebElement;
 
 public class LandingPage 
 {
+	
 	public WebDriver driver;
 	public LandingPage(WebDriver driver)
 	{
+		System.out.println("Demonstrate the GIT HUB importance");
 		this.driver = driver;
 	}
 	By login = By.cssSelector("a[href='http://qaclickacademy.usefedora.com/sign_in']");
