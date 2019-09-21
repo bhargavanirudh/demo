@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="142369" started-at="2019-09-13T18:28:38Z" finished-at="2019-09-13T18:31:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="142369" started-at="2019-09-13T18:28:38Z" finished-at="2019-09-13T18:31:01Z">
+      <class name="testcases.E2EProject.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testcases.E2EProject.HomePage@479d31f3]" name="basePageNavigation" duration-ms="39888" started-at="2019-09-13T18:30:06Z" data-provider="getData" finished-at="2019-09-13T18:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restrictiveuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testcases.E2EProject.HomePage@479d31f3]" name="basePageNavigation" duration-ms="12586" started-at="2019-09-13T18:30:45Z" data-provider="getData" finished-at="2019-09-13T18:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictiveuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- testcases.E2EProject.HomePage -->
+      <class name="testcases.E2EProject.GetTitle">
+        <test-method status="PASS" signature="gearUp()[pri:0, instance:testcases.E2EProject.GetTitle@333291e3]" name="gearUp" is-config="true" duration-ms="18961" started-at="2019-09-13T18:28:38Z" finished-at="2019-09-13T18:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gearUp -->
+        <test-method status="PASS" signature="gearUp()[pri:0, instance:testcases.E2EProject.HomePage@479d31f3]" name="gearUp" is-config="true" duration-ms="9446" started-at="2019-09-13T18:28:57Z" finished-at="2019-09-13T18:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gearUp -->
+        <test-method status="PASS" signature="validateTtle()[pri:0, instance:testcases.E2EProject.GetTitle@333291e3]" name="validateTtle" duration-ms="57680" started-at="2019-09-13T18:29:08Z" finished-at="2019-09-13T18:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTtle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.E2EProject.GetTitle@333291e3]" name="tearDown" is-config="true" duration-ms="402" started-at="2019-09-13T18:30:58Z" finished-at="2019-09-13T18:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.E2EProject.HomePage@479d31f3]" name="teardown" is-config="true" duration-ms="2259" started-at="2019-09-13T18:30:58Z" finished-at="2019-09-13T18:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.E2EProject.GetTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
